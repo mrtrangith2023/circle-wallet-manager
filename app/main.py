@@ -13,19 +13,6 @@ def root():
         "message": "Circle Wallet Manager API is running!"
     }
 
-@app.get("/config")
-def config():
-
-    return {
-
-        "app": settings.APP_NAME,
-
-        "version": settings.APP_VERSION,
-
-        "debug": settings.DEBUG
-
-    }
-
 @app.get("/health")
 def health():
     return {
@@ -38,14 +25,28 @@ def version():
         "version" : "0.1.1"
     }
 
-@app.get("/client")
-
-def client_info():
-
-    client = CircleClient()
-
+@app.get("/config")
+def config():
     return {
+        "app": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "debug": settings.DEBUG
+    }
 
-        "base_url": client.base_url
 
+@app.get("/client")
+def client_info():
+    client = CircleClient()
+    return {
+        "base_url": client.base_url,
+        "environment": settings.ENVIRONMENT
+    }
+
+
+@app.get("/info")
+def info():
+    return {
+        "name": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "environment": settings.ENVIRONMENT
     }
