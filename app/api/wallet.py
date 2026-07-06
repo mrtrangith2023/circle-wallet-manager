@@ -1,0 +1,1 @@
+APIRouter(prefix="/wallets")
