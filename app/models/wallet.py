@@ -1,6 +1,11 @@
-from sqlalchemy import Column
+from datetime import datetime
+
+from sqlalchemy import DateTime
 from sqlalchemy import Integer
 from sqlalchemy import String
+
+from sqlalchemy.orm import Mapped
+from sqlalchemy.orm import mapped_column
 
 from app.database.base import Base
 
@@ -9,14 +14,38 @@ class Wallet(Base):
 
     __tablename__ = "wallets"
 
-    id = Column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(
+        Integer,
+        primary_key=True,
+        index=True,
+    )
 
-    wallet_id = Column(String, unique=True)
+    wallet_id: Mapped[str] = mapped_column(
+        String,
+        unique=True,
+        nullable=False,
+    )
 
-    address = Column(String)
+    address: Mapped[str] = mapped_column(String)
 
-    blockchain = Column(String)
+    blockchain: Mapped[str] = mapped_column(String)
 
-    wallet_set_id = Column(String)
+    network: Mapped[str] = mapped_column(
+        String,
+        default="ETH-SEPOLIA",
+    )
 
-    state = Column(String)
+    wallet_set_id: Mapped[str] = mapped_column(String)
+
+    state: Mapped[str] = mapped_column(String)
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow,
+    )
+
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow,
+        onupdate=datetime.utcnow,
+    )
