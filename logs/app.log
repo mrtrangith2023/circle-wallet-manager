@@ -1,224 +1,328 @@
-2026-07-12 21:23:00,014 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 21:25:04,402 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_009
-2026-07-12 21:25:04,430 | INFO     | circle-wallet-manager | Wallet created successfully: wallet_demo_009
-2026-07-12 21:25:33,762 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_009
-2026-07-12 21:25:33,765 | ERROR    | circle-wallet-manager | Wallet ID already exists: wallet_demo_009
-2026-07-12 21:26:10,937 | WARNING  | circle-wallet-manager | Wallet not found: id=999
-2026-07-12 21:26:37,309 | INFO     | circle-wallet-manager | Deleting wallet id=9
-2026-07-12 22:05:15,426 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:05:31,774 | WARNING  | circle-wallet-manager | Wallet not found: id=999
-2026-07-12 22:06:47,787 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_001
-2026-07-12 22:06:47,792 | ERROR    | circle-wallet-manager | Wallet ID already exists: wallet_demo_001
-2026-07-12 22:10:11,908 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:11:10,385 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_001
-2026-07-12 22:11:10,404 | ERROR    | circle-wallet-manager | Wallet ID already exists: wallet_demo_001
-2026-07-12 22:17:19,236 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:21:48,453 | INFO     | circle-wallet-manager | GET /wallets/001 200 40.17ms
-2026-07-12 22:23:28,767 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_0010
-2026-07-12 22:23:28,784 | INFO     | circle-wallet-manager | Wallet created successfully: wallet_demo_0010
-2026-07-12 22:23:28,784 | INFO     | circle-wallet-manager | POST /wallets 201 22.17ms
-2026-07-12 22:24:38,198 | WARNING  | circle-wallet-manager | Wallet not found: id=999
-2026-07-12 22:24:38,201 | INFO     | circle-wallet-manager | GET /wallets/999 404 9.25ms
-2026-07-12 22:25:28,881 | INFO     | circle-wallet-manager | Creating wallet: wallet_demo_0010
-2026-07-12 22:25:28,885 | ERROR    | circle-wallet-manager | Wallet ID already exists: wallet_demo_0010
-2026-07-12 22:25:28,887 | INFO     | circle-wallet-manager | POST /wallets 409 10.19ms
-2026-07-12 22:28:25,674 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:28:28,933 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:28:54,714 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:28:57,944 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:29:34,726 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:29:37,915 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:30:12,178 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:30:15,313 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:30:28,119 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:30:31,345 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:31:30,899 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:31:36,390 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:04,506 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:07,797 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:31,539 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:34,730 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:47,305 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:32:50,448 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:33:02,878 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:33:06,081 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:35:52,073 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:35:57,363 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:36:04,046 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:36:10,761 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:36:23,330 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:39:23,932 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:39:36,448 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:39:46,093 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:39:49,928 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:40:00,997 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:40:03,963 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:40:07,176 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:40:44,347 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:40:48,159 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:41:03,454 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:41:07,321 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:41:10,424 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:41:43,162 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:41:46,448 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:42:05,179 | INFO     | circle-wallet-manager | GET /docs 200 1.00ms
-2026-07-12 22:42:07,537 | INFO     | circle-wallet-manager | GET /openapi.json 200 80.83ms
-2026-07-12 22:42:48,305 | INFO     | circle-wallet-manager | event=create_wallet wallet_id=wallet_demo_0011
-2026-07-12 22:42:48,347 | INFO     | circle-wallet-manager | event=create_wallet_success wallet_id=wallet_demo_0011
-2026-07-12 22:42:48,351 | INFO     | circle-wallet-manager | POST /wallets 201 55.33ms
-2026-07-12 22:44:27,365 | INFO     | circle-wallet-manager | GET /wallets/0011 200 9.45ms
-2026-07-12 22:45:06,945 | WARNING  | circle-wallet-manager | event=wallet_not_found id=999
-2026-07-12 22:45:06,945 | INFO     | circle-wallet-manager | GET /wallets/999 404 5.85ms
-2026-07-12 22:51:34,986 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:52:13,440 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:52:16,637 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 22:52:19,867 | INFO     | circle-wallet-manager | Logger initialized.
-2026-07-12 23:02:29,421 | INFO | - | circle-wallet-manager | Logger initialized.
-2026-07-12 23:02:34,752 | INFO | - | circle-wallet-manager | Logger initialized.
-2026-07-12 23:03:47,924 | INFO | c4e9653b-8481-454d-b6ba-5197591250da | circle-wallet-manager | GET /docs 200 0.00ms
-2026-07-12 23:03:50,361 | INFO | 6422d6c5-b49f-46c9-9273-7431ebbc3cac | circle-wallet-manager | GET /openapi.json 200 66.73ms
-2026-07-12 23:04:06,034 | INFO | a69dee1a-746d-497f-8460-d70b7863863f | circle-wallet-manager | event=create_wallet wallet_id=wallet_demo_0013
-2026-07-12 23:04:06,065 | INFO | a69dee1a-746d-497f-8460-d70b7863863f | circle-wallet-manager | event=create_wallet_success wallet_id=wallet_demo_0013
-2026-07-12 23:04:06,065 | INFO | a69dee1a-746d-497f-8460-d70b7863863f | circle-wallet-manager | POST /wallets 201 42.13ms
-2026-07-12 23:04:28,056 | INFO | 47aa7d96-c496-46b8-b4ad-18bcf840bc6b | circle-wallet-manager | event=create_wallet wallet_id=wallet_demo_0013
-2026-07-12 23:04:28,059 | ERROR | 47aa7d96-c496-46b8-b4ad-18bcf840bc6b | circle-wallet-manager | event=create_wallet_duplicate wallet_id=wallet_demo_0013
-2026-07-12 23:04:28,059 | INFO | 47aa7d96-c496-46b8-b4ad-18bcf840bc6b | circle-wallet-manager | POST /wallets 409 7.68ms
-2026-07-12 23:04:50,727 | INFO | 93357f96-2938-45dd-b012-da84a0a50f1e | circle-wallet-manager | GET /wallets/0013 200 11.21ms
-2026-07-12 23:04:56,057 | WARNING | 8538ebd5-6ab7-42c1-ab68-58ae8d207656 | circle-wallet-manager | event=wallet_not_found id=999
-2026-07-12 23:04:56,061 | INFO | 8538ebd5-6ab7-42c1-ab68-58ae8d207656 | circle-wallet-manager | GET /wallets/999 404 8.00ms
-2026-07-12 23:08:29,627 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:11:24,545 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:11:27,519 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:11:30,573 | INFO | 0f48eb20-bb92-48d7-808a-d6f1b392d01b | circle-wallet-manager | middleware.py:32 | GET /docs 200 1.00ms
-2026-07-13 14:11:32,368 | INFO | 07b96d51-1b23-4612-b7c6-94287e769c29 | circle-wallet-manager | middleware.py:32 | GET /openapi.json 200 85.03ms
-2026-07-13 14:19:03,673 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:19:06,898 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:13,386 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:20,451 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:28,857 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:32,115 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:36,903 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:41,872 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:29:56,640 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:30:01,267 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:30:19,914 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:30:23,240 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:30:26,334 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:30:54,145 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:33:27,551 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:33:32,238 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:33:41,067 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:33:45,932 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:33:58,270 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:01,442 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:12,355 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:15,629 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:22,572 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:25,768 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:34,664 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:38,006 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:45,569 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:34:49,930 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:37:42,216 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:37:44,941 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:37:56,221 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:38:20,532 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:38:25,398 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:39:10,946 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:39:14,211 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:39:17,427 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:39:24,097 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:39:28,943 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:14,723 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:19,157 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:32,003 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:35,256 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:42,267 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:47,185 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:54,135 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:40:57,421 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:41:04,331 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:47:12,580 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:47:21,304 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:47:28,082 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:47:42,811 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:48:09,040 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:48:25,823 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:48:29,001 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:48:32,230 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:53:26,073 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:53:37,090 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:53:41,958 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:57:15,172 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:58:04,390 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:58:07,608 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:58:12,673 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:58:17,569 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 14:58:20,774 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 15:06:15,302 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 15:06:22,332 | INFO | - | circle-wallet-manager | logger.py:77 | Logger initialized.
-2026-07-13 15:07:26,763 | INFO | - | circle-wallet-manager | logger.py:78 | Logger initialized.
-2026-07-13 15:07:31,377 | INFO | - | circle-wallet-manager | logger.py:78 | Logger initialized.
-2026-07-13 15:08:13,429 | INFO | - | circle-wallet-manager | logger.py:84 | Logger initialized.
-2026-07-13 15:08:16,720 | INFO | - | circle-wallet-manager | logger.py:84 | Logger initialized.
-2026-07-13 15:09:28,703 | INFO     | - | circle-wallet-manager | logger.py:84 | Logger initialized.
-2026-07-13 15:09:59,020 | INFO     | - | circle-wallet-manager | logger.py:89 | Logger initialized.
-2026-07-13 15:11:05,785 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:11:23,989 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:17:52,046 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:18:06,534 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:18:29,315 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:18:32,585 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:18:57,374 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:19:00,214 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:19:44,249 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:24:33,596 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:24:38,622 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:25:29,173 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:25:33,952 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:25:50,720 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:25:53,693 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:26:24,621 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:26:27,829 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:29:35,095 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:29:38,272 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:30:12,786 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:30:15,957 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:30:36,258 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:30:39,510 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:32:18,902 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:32:22,084 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:33:43,600 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:33:46,875 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:34:15,906 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:34:19,161 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:34:57,842 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:35:01,126 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:35:13,773 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:35:18,576 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:36:30,853 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:36:34,097 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:37:00,546 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:42:51,617 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:42:54,800 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:42:58,117 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:44:00,130 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:44:03,465 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:44:47,319 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:44:50,519 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:45:39,382 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:45:42,715 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:49:07,758 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:53:37,289 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:53:42,022 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:54:09,037 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:54:13,953 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:54:17,086 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:55:09,677 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:55:12,919 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:55:16,199 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:55:40,869 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:55:45,890 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:56:29,651 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:56:32,746 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
-2026-07-13 15:57:01,638 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:23:44,771 | INFO     | d4fc39b8-e7bc-4242-b906-a940123feb04 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=1.31 client=127.0.0.1
+2026-07-14 17:23:46,802 | INFO     | fe91d1ee-c1c0-4560-9f02-bade37f9e726 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=167.54 client=127.0.0.1
+2026-07-14 17:24:12,746 | INFO     | 11c9c35e-9852-40e8-a87b-721aeec2964a | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-14 17:24:12,961 | INFO     | 11c9c35e-9852-40e8-a87b-721aeec2964a | circle-wallet-manager | user_service.py:197 | event=login_success user_id=2 username=user1
+2026-07-14 17:24:12,964 | INFO     | 11c9c35e-9852-40e8-a87b-721aeec2964a | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=240.23 client=127.0.0.1
+2026-07-14 17:24:27,393 | INFO     | 6a25c9a6-c1fc-4d94-a7a5-c8387ac73eaa | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-14 17:24:27,555 | INFO     | 6a25c9a6-c1fc-4d94-a7a5-c8387ac73eaa | circle-wallet-manager | user_service.py:197 | event=login_success user_id=2 username=user1
+2026-07-14 17:24:27,559 | INFO     | 6a25c9a6-c1fc-4d94-a7a5-c8387ac73eaa | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=170.42 client=127.0.0.1
+2026-07-14 17:24:53,904 | INFO     | 0bb79066-666f-4721-94fa-356947a5a31f | circle-wallet-manager | wallet_service.py:32 | event=create_wallet_start wallet_id=wallet_demo_0021 blockchain=Blockchain.ETH_SEPOLIA
+2026-07-14 17:24:53,936 | INFO     | 0bb79066-666f-4721-94fa-356947a5a31f | circle-wallet-manager | wallet_service.py:67 | event=create_wallet_success id=21 wallet_id=wallet_demo_0021 blockchain=ETH-SEPOLIA
+2026-07-14 17:24:53,939 | INFO     | 0bb79066-666f-4721-94fa-356947a5a31f | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/wallets status=201 duration_ms=41.32 client=127.0.0.1
+2026-07-14 17:25:13,085 | INFO     | d2a6dc5e-5bf3-426b-b366-da9a37b99833 | circle-wallet-manager | wallet_service.py:123 | event=get_wallet id=21 owner_id=2 wallet_id=wallet_demo_0021
+2026-07-14 17:25:13,087 | INFO     | d2a6dc5e-5bf3-426b-b366-da9a37b99833 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/21 status=200 duration_ms=16.86 client=127.0.0.1
+2026-07-14 17:25:57,301 | INFO     | f8c1150f-a652-427d-beee-93adbc2feae3 | circle-wallet-manager | wallet_service.py:102 | event=list_wallets owner_id=2 count=1
+2026-07-14 17:25:57,304 | INFO     | f8c1150f-a652-427d-beee-93adbc2feae3 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets status=200 duration_ms=13.97 client=127.0.0.1
+2026-07-14 17:26:50,797 | INFO     | 068a37dd-3a35-4c41-b954-3bc81ecd6aef | circle-wallet-manager | wallet_service.py:176 | event=update_wallet_start id=21
+2026-07-14 17:26:50,820 | INFO     | 068a37dd-3a35-4c41-b954-3bc81ecd6aef | circle-wallet-manager | wallet_service.py:203 | event=update_wallet_success owner_id=2 wallet_id=21 updated_fields=['address', 'blockchain', 'wallet_set_id', 'state']
+2026-07-14 17:26:50,823 | INFO     | 068a37dd-3a35-4c41-b954-3bc81ecd6aef | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/wallets/21 status=200 duration_ms=36.31 client=127.0.0.1
+2026-07-14 17:31:01,457 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:11,599 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:19,268 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:22,742 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:37,324 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:47,208 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:50,793 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:31:58,875 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:32:02,571 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:36:19,105 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:37:34,263 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:37:37,861 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:37:50,342 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:37:53,704 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:38:04,235 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:38:07,921 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:38:16,892 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:38:20,500 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:38:28,508 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:41:16,438 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:41:46,853 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:41:50,517 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:42:34,298 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:42:37,907 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:10,079 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:13,085 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:16,242 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:19,467 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:35,820 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:43:57,122 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:44:09,205 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:44:45,508 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:44:49,167 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:45:17,288 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:45:29,825 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:46:14,397 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:46:50,797 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:47:21,039 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:47:35,361 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:47:56,074 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:47:59,756 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:48:13,693 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:48:29,907 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:48:37,813 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:49:22,966 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:49:26,102 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-14 17:49:58,760 | INFO     | e48c86ce-c072-4b56-b816-cabb91b54adb | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=0.95 client=127.0.0.1
+2026-07-14 17:50:01,251 | INFO     | 1d5b16e0-2e04-4be5-b651-4f46eea57bb1 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=167.98 client=127.0.0.1
+2026-07-14 17:50:16,553 | INFO     | 2b0fc188-cc88-47eb-b2e6-bee2241f4a52 | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-14 17:50:16,752 | INFO     | 2b0fc188-cc88-47eb-b2e6-bee2241f4a52 | circle-wallet-manager | user_service.py:197 | event=login_success user_id=2 username=user1
+2026-07-14 17:50:16,752 | INFO     | 2b0fc188-cc88-47eb-b2e6-bee2241f4a52 | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=222.71 client=127.0.0.1
+2026-07-14 17:50:45,055 | INFO     | 4800c3e3-49d6-4b7c-b31e-f9105d786fe0 | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-14 17:50:45,210 | INFO     | 4800c3e3-49d6-4b7c-b31e-f9105d786fe0 | circle-wallet-manager | user_service.py:197 | event=login_success user_id=2 username=user1
+2026-07-14 17:50:45,210 | INFO     | 4800c3e3-49d6-4b7c-b31e-f9105d786fe0 | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=166.15 client=127.0.0.1
+2026-07-14 17:51:39,811 | INFO     | 4370584c-ac1e-4f39-b2d7-453c114a93af | circle-wallet-manager | wallet_service.py:32 | event=create_wallet_start wallet_id=wallet_demo_0022 blockchain=Blockchain.ARB_SEPOLIA
+2026-07-14 17:51:39,844 | INFO     | 4370584c-ac1e-4f39-b2d7-453c114a93af | circle-wallet-manager | wallet_service.py:67 | event=create_wallet_success id=22 wallet_id=wallet_demo_0022 blockchain=ARB-SEPOLIA
+2026-07-14 17:51:39,847 | INFO     | 4370584c-ac1e-4f39-b2d7-453c114a93af | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/wallets status=201 duration_ms=48.82 client=127.0.0.1
+2026-07-14 17:51:58,730 | INFO     | a143a83e-5791-4698-9cff-1ae97563d2b1 | circle-wallet-manager | wallet_service.py:102 | event=list_wallets owner_id=2 count=2
+2026-07-14 17:51:58,737 | INFO     | a143a83e-5791-4698-9cff-1ae97563d2b1 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets status=200 duration_ms=16.70 client=127.0.0.1
+2026-07-14 17:52:28,940 | INFO     | 8f78818d-6847-4083-b00f-4942fd738beb | circle-wallet-manager | wallet_service.py:123 | event=get_wallet id=22 owner_id=2 wallet_id=wallet_demo_0022
+2026-07-14 17:52:28,942 | INFO     | 8f78818d-6847-4083-b00f-4942fd738beb | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/22 status=200 duration_ms=13.95 client=127.0.0.1
+2026-07-14 17:54:22,878 | INFO     | 5b8a0795-fa15-4fee-8a8e-5e5f35a0d43b | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/wallets/22 status=422 duration_ms=10.98 client=127.0.0.1
+2026-07-14 17:54:46,123 | INFO     | a3b32f71-a985-4081-bb26-ffbd6db7b432 | circle-wallet-manager | wallet_service.py:146 | event=delete_wallet_start owner_id=2 id=22
+2026-07-14 17:54:46,137 | INFO     | a3b32f71-a985-4081-bb26-ffbd6db7b432 | circle-wallet-manager | wallet_service.py:156 | event=delete_wallet_success owner_id=2 id=22
+2026-07-14 17:54:46,137 | INFO     | a3b32f71-a985-4081-bb26-ffbd6db7b432 | circle-wallet-manager | middleware.py:32 | event=http_request method=DELETE path=/wallets/22 status=204 duration_ms=31.03 client=127.0.0.1
+2026-07-14 18:00:14,147 | INFO     | 33dbe649-3cb3-4ab3-9afb-3623ac80b30d | circle-wallet-manager | wallet_service.py:176 | event=update_wallet_start id=21
+2026-07-14 18:00:14,167 | INFO     | 33dbe649-3cb3-4ab3-9afb-3623ac80b30d | circle-wallet-manager | wallet_service.py:203 | event=update_wallet_success owner_id=2 wallet_id=21 updated_fields=['address', 'state']
+2026-07-14 18:00:14,170 | INFO     | 33dbe649-3cb3-4ab3-9afb-3623ac80b30d | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/wallets/21 status=200 duration_ms=32.91 client=127.0.0.1
+2026-07-14 18:01:34,344 | WARNING  | f6573138-af3d-490f-bfb4-17079e8f1e11 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=22 owner_id=2
+2026-07-14 18:01:34,346 | INFO     | f6573138-af3d-490f-bfb4-17079e8f1e11 | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/wallets/22 status=404 duration_ms=11.43 client=127.0.0.1
+2026-07-14 18:02:15,967 | INFO     | d0b2a924-b1b3-4972-b998-90aeacb35138 | circle-wallet-manager | wallet_service.py:176 | event=update_wallet_start id=21
+2026-07-14 18:02:15,967 | INFO     | d0b2a924-b1b3-4972-b998-90aeacb35138 | circle-wallet-manager | wallet_service.py:203 | event=update_wallet_success owner_id=2 wallet_id=21 updated_fields=['address', 'state']
+2026-07-14 18:02:15,967 | INFO     | d0b2a924-b1b3-4972-b998-90aeacb35138 | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/wallets/21 status=200 duration_ms=16.24 client=127.0.0.1
+2026-07-15 17:25:01,736 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:25:34,769 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:26:47,064 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:26:57,174 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:30:08,059 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:32:33,911 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:32:37,656 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:32:40,639 | INFO     | 27f51023-90b9-4de0-b59c-71b0b30fec4c | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=3.29 client=127.0.0.1
+2026-07-15 17:32:43,522 | INFO     | e3c0fed9-d792-47e3-b4cf-332dec41ce75 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=173.12 client=127.0.0.1
+2026-07-15 17:33:01,102 | INFO     | 75b00dcf-456d-4a26-9976-d60bb7aca7c2 | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:33:24,952 | INFO     | 66edf5b8-f7c3-4210-b919-bc3afbdee6c8 | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:33:32,319 | INFO     | 129a56cd-70e5-4eb9-8ac2-93eafb7f6dc7 | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:33:50,653 | INFO     | 0b8a89b0-7537-4332-b132-97d4ef51d85c | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:33:52,151 | INFO     | 492b7ebd-ec54-4672-b91d-e0e82330aaad | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:34:01,281 | INFO     | 85e605ee-602f-4a7a-982b-1acb226c8398 | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-15 17:34:04,878 | INFO     | 34f8f04b-10fc-411b-83d4-8fbdae0d3304 | circle-wallet-manager | user_service.py:159 | event=login_start username=user1
+2026-07-15 17:34:51,107 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:34:54,370 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:35:10,846 | INFO     | 3de4d6a9-ccdb-49c8-95d4-e2ef0ff8f1d7 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=3.83 client=127.0.0.1
+2026-07-15 17:35:13,358 | INFO     | 8a355beb-50a8-462d-bec1-baeddadbacd3 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=172.95 client=127.0.0.1
+2026-07-15 17:35:27,423 | INFO     | d3ca63d6-9d28-405f-97bc-eacd8f9974aa | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:57:49,422 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:57:52,264 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 17:58:00,449 | INFO     | 144a713c-51e2-4739-ba91-d9ef6416c62b | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=3.93 client=127.0.0.1
+2026-07-15 17:58:02,971 | INFO     | 721c1476-288a-4c5d-8c07-ced46e99fd7c | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=181.43 client=127.0.0.1
+2026-07-15 17:58:17,033 | INFO     | f5ff25fe-226e-4ce0-95fb-a72e88290fd0 | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:58:17,253 | INFO     | f5ff25fe-226e-4ce0-95fb-a72e88290fd0 | circle-wallet-manager | user_service.py:197 | event=login_success user_id=1 username=admin
+2026-07-15 17:58:17,253 | INFO     | f5ff25fe-226e-4ce0-95fb-a72e88290fd0 | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=235.43 client=127.0.0.1
+2026-07-15 17:58:30,042 | INFO     | a0915ed0-dcc1-4acd-9136-2b73c5ef9396 | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 17:58:30,212 | INFO     | a0915ed0-dcc1-4acd-9136-2b73c5ef9396 | circle-wallet-manager | user_service.py:197 | event=login_success user_id=1 username=admin
+2026-07-15 17:58:30,215 | INFO     | a0915ed0-dcc1-4acd-9136-2b73c5ef9396 | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=164.85 client=127.0.0.1
+2026-07-15 17:58:53,170 | INFO     | c5617b00-a4aa-4624-97e6-e85cf77d926f | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users status=403 duration_ms=12.40 client=127.0.0.1
+2026-07-15 17:59:02,835 | INFO     | 0eca969c-7bcb-470b-9849-be4b3727fe78 | circle-wallet-manager | wallet_service.py:102 | event=list_wallets owner_id=1 count=3
+2026-07-15 17:59:02,851 | INFO     | 0eca969c-7bcb-470b-9849-be4b3727fe78 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets status=200 duration_ms=19.24 client=127.0.0.1
+2026-07-15 17:59:17,120 | WARNING  | f14e4f8f-7f63-4470-99fe-5146de0976ed | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=1 owner_id=1
+2026-07-15 17:59:17,123 | INFO     | f14e4f8f-7f63-4470-99fe-5146de0976ed | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/1 status=404 duration_ms=13.63 client=127.0.0.1
+2026-07-15 17:59:22,006 | WARNING  | bc6caa12-02a6-4f95-ad2c-c6a3ae94a587 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=2 owner_id=1
+2026-07-15 17:59:22,009 | INFO     | bc6caa12-02a6-4f95-ad2c-c6a3ae94a587 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/2 status=404 duration_ms=11.16 client=127.0.0.1
+2026-07-15 17:59:25,732 | WARNING  | f8eb54fc-3aa0-4df9-80e3-f3d58f530fc1 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=3 owner_id=1
+2026-07-15 17:59:25,735 | INFO     | f8eb54fc-3aa0-4df9-80e3-f3d58f530fc1 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/3 status=404 duration_ms=9.93 client=127.0.0.1
+2026-07-15 17:59:34,966 | WARNING  | 2525f687-02d7-48cd-84b8-0ba43c860aa4 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=4 owner_id=1
+2026-07-15 17:59:34,969 | INFO     | 2525f687-02d7-48cd-84b8-0ba43c860aa4 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/4 status=404 duration_ms=10.09 client=127.0.0.1
+2026-07-15 17:59:39,957 | WARNING  | 0ee715b4-6e4d-4851-950b-74b50075f3e5 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=5 owner_id=1
+2026-07-15 17:59:39,958 | INFO     | 0ee715b4-6e4d-4851-950b-74b50075f3e5 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/5 status=404 duration_ms=9.99 client=127.0.0.1
+2026-07-15 17:59:45,632 | WARNING  | 518f2a27-cb3f-4b4f-b229-14758863f623 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=6 owner_id=1
+2026-07-15 17:59:45,632 | INFO     | 518f2a27-cb3f-4b4f-b229-14758863f623 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/6 status=404 duration_ms=10.11 client=127.0.0.1
+2026-07-15 17:59:51,165 | WARNING  | f3289a09-7b36-40ec-abc6-afbf4b1623a6 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=7 owner_id=1
+2026-07-15 17:59:51,168 | INFO     | f3289a09-7b36-40ec-abc6-afbf4b1623a6 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/7 status=404 duration_ms=9.50 client=127.0.0.1
+2026-07-15 17:59:56,871 | WARNING  | 3ae8035b-a6e4-40fd-8a22-5c1a07d0f321 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=8 owner_id=1
+2026-07-15 17:59:56,886 | INFO     | 3ae8035b-a6e4-40fd-8a22-5c1a07d0f321 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/8 status=404 duration_ms=9.41 client=127.0.0.1
+2026-07-15 18:00:04,380 | INFO     | 057a15d4-aacf-4b4d-86eb-2029029475ba | circle-wallet-manager | wallet_service.py:102 | event=list_wallets owner_id=1 count=3
+2026-07-15 18:00:04,397 | INFO     | 057a15d4-aacf-4b4d-86eb-2029029475ba | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets status=200 duration_ms=9.77 client=127.0.0.1
+2026-07-15 18:00:12,259 | INFO     | ce271bb6-f9a1-4c8b-99d3-4157a1d7a689 | circle-wallet-manager | wallet_service.py:123 | event=get_wallet id=20 owner_id=1 wallet_id=wallet_demo_user1
+2026-07-15 18:00:12,261 | INFO     | ce271bb6-f9a1-4c8b-99d3-4157a1d7a689 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/20 status=200 duration_ms=9.32 client=127.0.0.1
+2026-07-15 18:25:18,581 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:25:21,929 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:25:25,920 | INFO     | 62bd53ba-2a47-4f0a-8adf-2783a621300b | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=3.94 client=127.0.0.1
+2026-07-15 18:25:28,485 | INFO     | b07d1794-427a-476c-b20a-784d13be21f2 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=177.05 client=127.0.0.1
+2026-07-15 18:25:43,032 | INFO     | f506a859-505b-4d1d-95ff-8c9ff921254b | circle-wallet-manager | user_service.py:159 | event=login_start username=admin
+2026-07-15 18:25:43,241 | INFO     | f506a859-505b-4d1d-95ff-8c9ff921254b | circle-wallet-manager | user_service.py:197 | event=login_success user_id=1 username=admin
+2026-07-15 18:25:43,245 | INFO     | f506a859-505b-4d1d-95ff-8c9ff921254b | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=229.52 client=127.0.0.1
+2026-07-15 18:25:55,617 | INFO     | 0416ab71-8cc0-42f8-99b6-26b93d42cb3b | circle-wallet-manager | wallet_service.py:102 | event=list_wallets owner_id=1 count=3
+2026-07-15 18:25:55,620 | INFO     | 0416ab71-8cc0-42f8-99b6-26b93d42cb3b | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets status=200 duration_ms=22.46 client=127.0.0.1
+2026-07-15 18:26:08,671 | WARNING  | d9b71cee-2186-46e2-a9a7-8baa901f9459 | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=1 owner_id=1
+2026-07-15 18:26:08,687 | INFO     | d9b71cee-2186-46e2-a9a7-8baa901f9459 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/1 status=404 duration_ms=14.16 client=127.0.0.1
+2026-07-15 18:26:16,919 | WARNING  | ca79622a-920a-4a0d-85ee-af808278635a | circle-wallet-manager | wallet_repository.py:76 | event=wallet_not_found wallet_id=21 owner_id=1
+2026-07-15 18:26:16,922 | INFO     | ca79622a-920a-4a0d-85ee-af808278635a | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/21 status=404 duration_ms=10.93 client=127.0.0.1
+2026-07-15 18:26:24,626 | INFO     | cb06f795-2ea5-4b45-8c2b-b63624c54f48 | circle-wallet-manager | wallet_service.py:123 | event=get_wallet id=20 owner_id=1 wallet_id=wallet_demo_user1
+2026-07-15 18:26:24,629 | INFO     | cb06f795-2ea5-4b45-8c2b-b63624c54f48 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/wallets/20 status=200 duration_ms=10.04 client=127.0.0.1
+2026-07-15 18:26:46,907 | INFO     | 04a74e9c-821d-4adc-a56d-ff7bc36722a3 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/me status=200 duration_ms=23.90 client=127.0.0.1
+2026-07-15 18:27:01,869 | INFO     | 2dfd5db9-60d5-40ba-8e6a-d08f9ed85408 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users status=200 duration_ms=9.33 client=127.0.0.1
+2026-07-15 18:27:14,241 | INFO     | 1142eae4-23f8-412f-b97b-7b3473e396cd | circle-wallet-manager | user_service.py:51 | event=get_user id=1
+2026-07-15 18:27:14,244 | INFO     | 1142eae4-23f8-412f-b97b-7b3473e396cd | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/1 status=200 duration_ms=9.00 client=127.0.0.1
+2026-07-15 18:27:17,926 | INFO     | 52cad52e-55b1-45ca-b17b-4a813d369788 | circle-wallet-manager | user_service.py:51 | event=get_user id=2
+2026-07-15 18:27:17,929 | INFO     | 52cad52e-55b1-45ca-b17b-4a813d369788 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=200 duration_ms=7.83 client=127.0.0.1
+2026-07-15 18:27:20,556 | INFO     | 85a2c3fd-a3fc-4bb3-aada-24fe189fe033 | circle-wallet-manager | user_service.py:51 | event=get_user id=2
+2026-07-15 18:27:20,559 | INFO     | 85a2c3fd-a3fc-4bb3-aada-24fe189fe033 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=200 duration_ms=7.72 client=127.0.0.1
+2026-07-15 18:27:30,001 | WARNING  | e67cc6fd-831a-46a6-81f8-7d16bae09e38 | circle-wallet-manager | user_service.py:41 | event=user_not_found id=20
+2026-07-15 18:27:30,001 | INFO     | e67cc6fd-831a-46a6-81f8-7d16bae09e38 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/20 status=404 duration_ms=7.03 client=127.0.0.1
+2026-07-15 18:27:41,183 | WARNING  | 8d07a89e-e0d8-4862-aba9-e93d562a910b | circle-wallet-manager | user_service.py:41 | event=user_not_found id=21
+2026-07-15 18:27:41,186 | INFO     | 8d07a89e-e0d8-4862-aba9-e93d562a910b | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/21 status=404 duration_ms=8.24 client=127.0.0.1
+2026-07-15 18:27:49,862 | WARNING  | d065de21-0dea-46b3-8724-befc1c7c842d | circle-wallet-manager | user_service.py:41 | event=user_not_found id=19
+2026-07-15 18:27:49,867 | INFO     | d065de21-0dea-46b3-8724-befc1c7c842d | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/19 status=404 duration_ms=7.04 client=127.0.0.1
+2026-07-15 18:28:00,989 | WARNING  | ca11e12e-8056-4742-b471-d0f16ca94eac | circle-wallet-manager | user_service.py:41 | event=user_not_found id=20
+2026-07-15 18:28:00,989 | INFO     | ca11e12e-8056-4742-b471-d0f16ca94eac | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/20 status=404 duration_ms=7.04 client=127.0.0.1
+2026-07-15 18:28:02,528 | WARNING  | 1289ca4e-8275-46a9-9a0b-cb2bfcdfed08 | circle-wallet-manager | user_service.py:41 | event=user_not_found id=20
+2026-07-15 18:28:02,531 | INFO     | 1289ca4e-8275-46a9-9a0b-cb2bfcdfed08 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/20 status=404 duration_ms=7.13 client=127.0.0.1
+2026-07-15 18:30:10,298 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:30:13,987 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:33:31,042 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:36:07,766 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:36:11,026 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:36:31,779 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:38:40,867 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:38:44,517 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:38:48,200 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:38:51,887 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:38:57,273 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:39:20,233 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:39:23,759 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:39:33,393 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:42:18,811 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:42:22,378 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:43:35,845 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:46:01,278 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:46:35,354 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:46:38,861 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:46:44,353 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:47:04,611 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:47:18,892 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:48:10,549 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:48:14,216 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:48:17,405 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:49:33,618 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:49:41,212 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:51:36,186 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:51:41,368 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:52:00,341 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:52:31,976 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 18:52:35,639 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:15:25,150 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:15:28,798 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:16:25,917 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:16:30,927 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:17:24,594 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:20:51,253 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:21:26,939 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:24:55,783 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:25:38,529 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:25:42,168 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:26:15,854 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:27:09,470 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:27:27,720 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:30:18,236 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:15,022 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:22,431 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:27,578 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:32,862 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:53,986 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:34:57,809 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:35:01,363 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:35:05,010 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:35:35,064 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:35:40,330 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:02,351 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:07,176 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:10,718 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:16,152 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:19,553 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:34,110 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:38,978 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:36:42,413 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:37:18,179 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:37:28,201 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:37:33,595 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:38:42,303 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:38:47,845 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:40:19,906 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:50:05,391 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:52:24,908 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:52:39,173 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:52:42,096 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:53:13,556 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:53:16,561 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:53:20,745 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:53:34,292 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 19:53:43,361 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:17:59,298 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:18:28,123 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:19:01,631 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:19:04,361 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:24:42,552 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:24:46,236 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-15 20:25:18,209 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 02:59:40,673 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:13:01,705 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:13:05,104 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:13:10,819 | INFO     | 632d018e-c412-46ea-823a-f2469ae65ca7 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=1.68 client=127.0.0.1
+2026-07-16 03:13:12,897 | INFO     | f4353f0c-3af8-4c86-a206-37268bd8ea3e | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=211.35 client=127.0.0.1
+2026-07-16 03:16:31,676 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:16:56,582 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:17:17,781 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:17:59,525 | INFO     | ad72531a-4418-4232-9515-acc163ffef44 | circle-wallet-manager | user_service.py:206 | event=login_start username=admin
+2026-07-16 03:17:59,726 | INFO     | ad72531a-4418-4232-9515-acc163ffef44 | circle-wallet-manager | user_service.py:247 | event=login_success user_id=1 username=admin
+2026-07-16 03:17:59,726 | INFO     | ad72531a-4418-4232-9515-acc163ffef44 | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=275.36 client=127.0.0.1
+2026-07-16 03:19:14,862 | INFO     | 7d2ab34b-f734-4d1a-a342-14c7d83748ad | circle-wallet-manager | user_service.py:206 | event=login_start username=admin
+2026-07-16 03:19:15,017 | INFO     | 7d2ab34b-f734-4d1a-a342-14c7d83748ad | circle-wallet-manager | user_service.py:247 | event=login_success user_id=1 username=admin
+2026-07-16 03:19:15,017 | INFO     | 7d2ab34b-f734-4d1a-a342-14c7d83748ad | circle-wallet-manager | middleware.py:32 | event=http_request method=POST path=/auth/login status=200 duration_ms=164.85 client=127.0.0.1
+2026-07-16 03:19:39,672 | INFO     | a94cd1fd-b199-4e19-9da5-d83d0db471ed | circle-wallet-manager | user_service.py:142 | event=update_user_start user_id=2
+2026-07-16 03:19:39,701 | INFO     | a94cd1fd-b199-4e19-9da5-d83d0db471ed | circle-wallet-manager | user_service.py:165 | event=update_user_success user_id=2 updated_fields=['full_name']
+2026-07-16 03:19:39,711 | INFO     | a94cd1fd-b199-4e19-9da5-d83d0db471ed | circle-wallet-manager | middleware.py:32 | event=http_request method=PUT path=/users/2 status=200 duration_ms=44.51 client=127.0.0.1
+2026-07-16 03:20:15,356 | INFO     | 6afbcfc5-0bd2-4ace-ae0a-2e1256c5b108 | circle-wallet-manager | user_service.py:43 | event=get_user user_id=2
+2026-07-16 03:20:15,356 | INFO     | 6afbcfc5-0bd2-4ace-ae0a-2e1256c5b108 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=200 duration_ms=13.96 client=127.0.0.1
+2026-07-16 03:20:44,152 | INFO     | 62f3561b-d57a-4169-b8b0-be679ecc4f54 | circle-wallet-manager | user_service.py:184 | event=delete_user_start user_id=2
+2026-07-16 03:21:33,662 | INFO     | b809f59b-e8f8-4b30-a0a3-19ae12a9a909 | circle-wallet-manager | user_service.py:43 | event=get_user user_id=2
+2026-07-16 03:21:33,665 | INFO     | b809f59b-e8f8-4b30-a0a3-19ae12a9a909 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=200 duration_ms=12.57 client=127.0.0.1
+2026-07-16 03:39:08,639 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:40:22,152 | INFO     | 7afc48b5-7cee-4aa7-9552-f25e0147d01d | circle-wallet-manager | user_service.py:43 | event=get_user user_id=2
+2026-07-16 03:40:22,161 | INFO     | 7afc48b5-7cee-4aa7-9552-f25e0147d01d | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=200 duration_ms=111.01 client=127.0.0.1
+2026-07-16 03:40:28,869 | INFO     | 9be0de07-d4f4-440e-8c19-e6a885b69ead | circle-wallet-manager | user_service.py:184 | event=delete_user_start user_id=2
+2026-07-16 03:40:28,908 | INFO     | 9be0de07-d4f4-440e-8c19-e6a885b69ead | circle-wallet-manager | user_service.py:194 | event=delete_user_success user_id=2
+2026-07-16 03:40:28,910 | INFO     | 9be0de07-d4f4-440e-8c19-e6a885b69ead | circle-wallet-manager | middleware.py:32 | event=http_request method=DELETE path=/users/2 status=204 duration_ms=46.03 client=127.0.0.1
+2026-07-16 03:40:44,899 | INFO     | fdf9de70-12d4-48f7-9318-cbcbfcc6a82f | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/users/2 status=404 duration_ms=10.62 client=127.0.0.1
+2026-07-16 03:55:24,211 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:55:27,893 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:55:59,864 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:57:25,535 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:57:28,834 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 03:57:32,407 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:01:16,090 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:01:44,971 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:04:41,974 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:04:45,780 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:04:49,434 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:14:58,221 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:15:08,075 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:21:50,328 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:21:53,847 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:22:59,549 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:24:57,860 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:25:01,576 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:30:56,713 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:31:00,367 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:35:33,775 | INFO     | a02787e0-4f74-4b0f-9c9a-c36da67f5fa9 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/docs status=200 duration_ms=1.49 client=127.0.0.1
+2026-07-16 04:35:35,559 | INFO     | 909334cb-81e7-4c88-addb-ca3c1fa33878 | circle-wallet-manager | middleware.py:32 | event=http_request method=GET path=/openapi.json status=200 duration_ms=218.10 client=127.0.0.1
+2026-07-16 04:41:17,457 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:45:57,095 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:46:00,320 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:46:14,149 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:46:17,743 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:05,863 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:09,556 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:28,097 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:31,772 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:53,282 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:47:56,573 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO
+2026-07-16 04:48:13,157 | INFO     | - | circle-wallet-manager | logger.py:89 | event=logger_initialized log_level=INFO

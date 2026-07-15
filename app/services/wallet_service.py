@@ -1,3 +1,4 @@
+import time
 from sqlalchemy.orm import Session
 from app.models.wallet import Wallet
 from app.schemas.wallet import (
@@ -12,17 +13,20 @@ from app.core.exceptions import (
 from app.repositories.wallet_repository import (
     WalletRepository
 )
+from app.models.user import User
 
 class WalletService:
 
     def __init__(self, db: Session):
         self.db = db
 
-        self.repository = WalletRepository(
-            db
-        )
+        self.repository: WalletRepository = WalletRepository(db)
 
-    def create_wallet(self, wallet: WalletCreate):
+    def create_wallet(
+        self,
+        wallet: WalletCreate,
+        current_user: User,
+    ) -> Wallet:
 
         logger.info(
             "event=create_wallet_start "
@@ -31,6 +35,8 @@ class WalletService:
             wallet.wallet_id,
             wallet.blockchain,
         )
+
+        start = time.perf_counter()
 
         if self.repository.wallet_exists(wallet.wallet_id):
 
@@ -44,28 +50,31 @@ class WalletService:
                 wallet.wallet_id
             )
                
-        db_wallet = Wallet(
-            wallet_id=wallet.wallet_id,
-            address=wallet.address,
-            blockchain=wallet.blockchain,
-            wallet_set_id=wallet.wallet_set_id,
-            state=wallet.state,
+        db_wallet = self._build_wallet(
+            wallet,
+            current_user,
         )
 
         try:
-            self.db.add(db_wallet)
-            self.db.commit()
-            
-            self.db.refresh(db_wallet)
+
+            db_wallet = self.repository.create(
+                db_wallet
+            )
+
+            elapsed = (
+                time.perf_counter() - start
+            ) * 1000
 
             logger.info(
                 "event=create_wallet_success "
-                "id=%s "
+                "wallet_db_id=%s "
                 "wallet_id=%s "
-                "blockchain=%s",
+                "blockchain=%s "
+                "duration_ms=%.2f",
                 db_wallet.id,
                 db_wallet.wallet_id,
                 db_wallet.blockchain,
+                elapsed,
             )
 
         except IntegrityError:
@@ -84,51 +93,74 @@ class WalletService:
 
         return db_wallet
 
-    def list_wallets(self):
+    def list_wallets(
+        self,
+        current_user: User,
+    ) -> list[Wallet]:
 
-        wallets = self.repository.list_wallets()
+        wallets = self.repository.list_wallets(
+            current_user.id
+        )
 
         logger.info(
             "event=list_wallets "
+            "owner_id=%s "
             "count=%s",
+            current_user.id,
             len(wallets),
         )
 
         return wallets
 
-    def get_wallet(self, wallet_id: int):
+    def get_wallet(
+        self,
+        wallet_id: int,
+        current_user: User,
+    ):
 
-        wallet = self.repository.get_wallet_or_404(
-            wallet_id
+        wallet = self.repository.get_wallet_by_owner(
+            wallet_id,
+            current_user.id,
         )
 
         logger.info(
             "event=get_wallet "
-            "id=%s "
+            "wallet_db_id=%s "
+            "owner_id=%s "
             "wallet_id=%s",
             wallet.id,
+            current_user.id,
             wallet.wallet_id,
         )
 
         return wallet
 
-    def delete_wallet(self, wallet_id: int) -> None:
-        
-        wallet = self.repository.get_wallet_or_404(wallet_id)
+    def delete_wallet(
+        self,
+        wallet_id: int,
+        current_user: User,
+    ) -> None:
+
+        wallet = self.repository.get_wallet_by_owner(
+            wallet_id,
+            current_user.id,
+        )
 
         logger.info(
             "event=delete_wallet_start "
-            "id=%s",
+            "owner_id=%s "
+            "wallet_db_id=%s",
+            current_user.id,
             wallet.id,
         )
 
-        self.db.delete(wallet)
-
-        self.db.commit()
+        self.repository.delete(wallet)
 
         logger.info(
             "event=delete_wallet_success "
-            "id=%s",
+            "owner_id=%s "
+            "wallet_db_id=%s",
+            current_user.id,
             wallet.id,
         )
 
@@ -136,13 +168,17 @@ class WalletService:
         self,
         wallet_id: int,
         wallet_update: WalletUpdate,
+        current_user: User,
     ) -> Wallet:
 
-        wallet = self.repository.get_wallet_or_404(wallet_id)
+        wallet = self.repository.get_wallet_by_owner(
+            wallet_id,
+            current_user.id,
+        )
 
         logger.info(
             "event=update_wallet_start "
-            "id=%s",
+            "wallet_db_id=%s",
             wallet_id,
         )
 
@@ -158,16 +194,37 @@ class WalletService:
                 value,
             )
 
-        self.db.commit()
-
-        self.db.refresh(wallet)
+        wallet = self.repository.update(wallet)
 
         logger.info(
             "event=update_wallet_success "
-            "id=%s "
+            "owner_id=%s "
+            "wallet_id=%s "
             "updated_fields=%s",
+            current_user.id,
             wallet.id,
-            len(update_data),
+            list(update_data.keys()),
         )
 
         return wallet
+
+    def _build_wallet(
+        self,
+        wallet: WalletCreate,
+        current_user: User,
+    ) -> Wallet:
+
+        return Wallet(
+
+            owner_id=current_user.id,
+
+            wallet_id=wallet.wallet_id,
+
+            address=wallet.address,
+
+            blockchain=wallet.blockchain,
+
+            wallet_set_id=wallet.wallet_set_id,
+
+            state=wallet.state,
+        )

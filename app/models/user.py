@@ -7,9 +7,15 @@ from sqlalchemy import String
 
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
+from sqlalchemy.orm import relationship
 
 from app.database.base import Base
+from sqlalchemy import Enum
+from app.core.enums import UserRole
+from datetime import UTC
 
+default=lambda: datetime.now(UTC)
+DateTime(timezone=True)
 
 class User(Base):
 
@@ -55,7 +61,20 @@ class User(Base):
         default=False,
     )
 
+    role: Mapped[UserRole] = mapped_column(
+        Enum(UserRole),
+        default=UserRole.USER,
+        server_default="USER",
+        nullable=False,
+    )
+
     created_at: Mapped[datetime] = mapped_column(
         DateTime,
         default=datetime.utcnow,
+    )
+
+    wallets: Mapped[list["Wallet"]] = relationship(
+        "Wallet",
+        back_populates="owner",
+        cascade="all, delete-orphan",
     )

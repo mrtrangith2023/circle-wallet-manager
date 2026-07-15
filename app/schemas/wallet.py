@@ -1,8 +1,14 @@
 from datetime import datetime
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from app.enums.wallet import WalletState, Blockchain
 class WalletCreate(BaseModel):
+
+    username: str | None = Field(
+        default=None,
+        min_length=3,
+        max_length=100,
+    )
 
     wallet_id: str = Field(
         ...,
@@ -37,9 +43,9 @@ class WalletResponse(WalletCreate):
     created_at: datetime
     updated_at: datetime
 
-    model_config = {
-        "from_attributes": True
-    }
+    model_config = ConfigDict(
+        from_attributes=True
+    )
 
 class WalletUpdate(BaseModel):
 

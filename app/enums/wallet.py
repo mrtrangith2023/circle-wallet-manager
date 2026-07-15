@@ -4,7 +4,7 @@ class WalletState(str, Enum):
 
     LIVE = "LIVE"
 
-    FROZEN = "FRONZE"
+    FROZEN = "FROZEN"
 
     ARCHIVED = "ARCHIVED"
 
